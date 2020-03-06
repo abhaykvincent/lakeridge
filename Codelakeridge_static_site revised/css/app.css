@@ -1,0 +1,528 @@
+/*=============================== general styling ===============================*/
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin: 0;
+	background-color: white;
+}
+
+.page {
+	height:100vh;
+}
+
+.sizeBarHeader {
+	height:12vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pageBody {
+	height:76vh;
+	overflow: scroll;
+}
+.radioOptions{
+	display: block;
+	padding: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	width: 100%;
+	margin-bottom: 10px;;
+}
+.radioOptions label{
+	width: 200px;
+}
+.radioOptions i{
+	font-size: 130%;
+}
+.pageBody label{
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 15px;
+}
+
+
+.greyBarFooter {
+	background-color: #C7C8CA;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+/* .pageBody{
+	padding-top: 20px;
+} */
+
+/*=============================== general styling for header ===============================*/
+.sizeBarHeader {
+	padding-left:5px;
+	padding-right:5px;
+	/* padding-bottom: 20px; */
+}
+
+select{
+	height: 50px;
+}
+/* .sizeBarHeader img {
+	width:100%;
+} */
+
+img.menuClass, img.arrowClass {
+	width:50%;
+}
+
+.headerBar {
+	height:10vh;
+}
+
+.backBtn, .headerLogo, .burgerMenu {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.headerLogo .logoclass {
+	display:block;
+	height:75%;
+}
+.hamburger{
+	width: 100%;
+}
+
+.green-1 {
+	background-color: #B2D234;
+}
+/*=============================== general styling for footer ===============================*/
+
+.footerBox {
+	display:flex;
+	align-items: center;
+	height:auto;
+	width:100%;
+}
+
+
+.footerLogo1, .footerLogo2, .copyRight {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+	padding: 5px;
+}
+
+
+p.copyright-lakeridge {
+	margin-bottom: 0;
+	font-size: 0.8em;
+	text-align: right;
+}
+
+.logoFooter{
+	width: 69%;
+}
+
+.durhamLogo {
+	width: 50%;
+	/* margin: 29px 0px; */
+}
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #C7C8CA;
+}
+
+.logo_footer {
+	width:70%;
+}
+/*=============================== layout for splash page===============================*/
+
+.splashBody {
+	height:100vh;
+	display: flex;
+	align-items: center;
+}
+
+.lakeridge_health_logo {
+	max-width: 100%;
+	height: 90%;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.copyright-lakeridge {
+	font-family: 'Open Sans';
+	font-style: italic;
+	/* margin: 37px 0px; */
+}
+
+
+/* .logo_box {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	height:100%;
+} */
+
+/*===============================styling for landing page===============================*/
+h2 {
+	font-size: 1.8em;
+}
+
+.clinical_trials_title {
+	font-family: 'Roboto', sans-serif;
+	color: #25AAE1;
+}
+
+.landing_para {
+	font-family: 'Open Sans';
+	color: black;
+}
+
+.divSpace02 {
+	height: 100px;
+	background-color: white;
+}
+
+#landing_img{
+	background-color: #B2D234;
+	display: block;
+}
+.button_startResearch{
+	background-color: #B2D234;
+	color: #444A4D;
+	border-radius: 10px;
+	font-size: 1.2em;
+	font-weight: bolder;
+	margin: 2em 0;
+	padding: 0.5em 1em;
+}
+.landing_page{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+}
+.info a:hover, .btn a:hover{
+	border:1px solid #25AAE1;
+	color: #25AAE1;
+	background-color: inherit;
+}
+/*===============================styling for main page===============================*/
+
+.studyClass {
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+
+.conditionClass {
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+
+.otherClass {
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+
+.researchStudy_title {
+	color: #999999;
+}
+
+.condition_title {
+	color: #999999;
+}
+
+.otherTerm_title {
+	color: #999999;
+}
+
+.results_title {
+	color: black;
+}
+
+
+/*===============================styling for results page===============================*/
+
+
+
+/* .logo_box {
+	height: 635px;
+} */
+
+.whiteBackground {
+	color: white;
+}
+
+.page04Size {
+	height: 500px;
+}
+
+h3 {
+	color: white;
+}
+
+.recruitment_box {
+	background-color: #F2F2F2;
+	height: 77px;
+	border-radius: 10px;
+	
+}
+.recruitment_box h4{
+	font-size: 16px;
+	padding: 0.5em;
+	margin: 0;
+}
+.circle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.greyCircle{
+	height: 20px;
+	width: 20px;
+	background-color: #9b9b9b;
+	border-radius: 100%;;
+}
+.orangeCircle{
+	height: 20px;
+	width: 20px;
+	background-color: #f6931c;
+	border-radius: 100%;;
+}
+.greenCircle{
+	height: 20px;
+	width: 20px;
+	background-color: #b3d234;
+	border-radius: 100%;;
+}
+.openforRecruitmentContainer {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.closedforRecruitmentContainer {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.notEligibleRecruitmentContainer {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.recruitmentContainer{
+	background-color: #F2F2F2;
+	height: 77px;
+	border: 1px solid #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0.5em;
+}
+.recruitment_status {
+	color: #444A4D;
+}
+.result{
+	margin-top: 20px;
+	color: black;
+	min-height: 100px;
+	border-radius: 10px;
+}
+.result .resultName{
+	font-weight: bold;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+.result .basketResultName{
+	font-weight: bold;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+.greenHeader{
+	background-color:#b3d235 !important
+}
+.greenDetails{
+	background-color:#b3d23554 !important
+}
+.orangeHeader{
+	background-color:#fc9430 !important
+}
+.orangeDetails{
+	background-color:#fc933054 !important
+}
+.greyHeader{
+	background-color:#9b9b9b !important
+}
+.greyDetails{
+	background-color:#9b9b9b83 !important
+}
+
+.result .resultDetails{
+
+	padding: 30px 20px;
+	box-sizing: border-box;
+
+}
+.result .basketResultDetails{
+
+	padding: 30px 20px;
+	box-sizing: border-box;
+
+}
+
+.eligibilty_status {
+	color: black;
+	font-weight: bolder;
+}
+
+.contact_box {
+	background-color: #F2F2F2;
+	height: 187px;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.contact_detail {
+	color: black;
+	font-style: italic;
+	font-size: 18px;
+	padding-top: 2em;
+}
+
+.contactInfo {
+	color: black;
+}
+
+.contactDetail01 {
+	color: black;
+}
+/*===============================styling for Hamburger menu screen ===============================*/
+#hamburger1, #hamburger2, #hamburger3{
+	cursor: pointer;
+}
+#hamburgerMenu{
+	height: 100vh;
+	width: 40%;
+	background-color:#F2F2F2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	padding-left: 3vw;
+	display: none;
+	cursor: pointer;
+	z-index: 999999;
+}
+#menu {
+	width: 100%;
+	height: 88vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+}
+#menu a{
+	color: #444A4D;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #444A4D;
+	padding: 2vh 0vw;
+	display: flex;
+	padding: 1em;
+}
+#menu a:hover{
+	color:#B2D234;
+}
+#closeBtn{
+	position: absolute;
+	top: 2vh;
+	height: 12vh;
+}
+#closeBtn img{
+	max-width: 100%;
+	width: 28%;
+	justify-content: center;
+	display: flex;
+	align-content: center;
+	
+}
+
+/* Tablets */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.logo_footer {
+		width:50%;
+	}
+}
+/* Smartphones */
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) {
+	.landing_para{
+		font-family: "Open Sans";
+		color: black;
+		font-size: 10pt;
+	}
+
+	.recruitment_status{
+		font-size: 10pt;
+	}
+
+	.openforRecruitmentContainer {
+		height: 40px;
+	}
+	.closedforRecruitmentContainer {
+		height: 40px;
+	}
+
+	.recruitment_box {
+		background-color: #F2F2F2;
+		height: 40px;
+		border-radius: 10px;
+	}
+	.headerLogo .logoclass {
+		display:block;
+		height:50%;
+	}
+
+	.logo_footer {
+		width:100%;
+	}
+
+	img.menuClass, img.arrowClass {
+		width: 100%;
+	}
+
+	.durhamLogo {
+		width: 100%;
+		/* margin: 29px 0px; */
+	}
+	#hamburgerMenu{
+		width: 60%;
+		z-index: 999999;
+	}
+
+}
+
+
+
+div.btn {
+    display: inline-block;
+    border: 2px solid #ccc;
+    margin-right: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+div.btn.on {
+    background-color: #777;
+    color: white;
+}

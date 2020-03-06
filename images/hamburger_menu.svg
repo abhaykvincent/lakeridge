@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #444a4d;
+      }
+    </style>
+  </defs>
+  <title>hamburger_menu</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="page2">
+      <g id="header">
+        <g id="header_items">
+          <g id="hamburger_menu">
+            <rect class="cls-1" y="25.76" width="66" height="7" rx="3"/>
+            <rect class="cls-1" width="66" height="7" rx="3"/>
+            <rect class="cls-1" y="52" width="66" height="7" rx="3"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
